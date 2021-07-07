@@ -1,0 +1,5 @@
+package vendor.styxproject.testhal@1.0;
+
+interface ITesthw {
+	testfn(int32_t valIn) generates (int32_t valRet);
+};
