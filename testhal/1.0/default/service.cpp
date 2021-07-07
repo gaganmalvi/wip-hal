@@ -4,7 +4,7 @@
 #include "Testhw.h"
 
 using vendor::styxproject::testhal::V1_0::ITesthw;
-using vendor::styxproject::testhal::V1_0::implementation::Testhw;
+using vendor::styxproject::testhal::implementation::Testhw;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 using android::sp;

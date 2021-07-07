@@ -2,4 +2,4 @@ service testhwserv /vendor/bin/hw/vendor.styxproject.testhal@1.0-service
     class hal
     user root
     group root
-    seclabel u:r:testhal:s0
+    seclabel u:r:su:s0

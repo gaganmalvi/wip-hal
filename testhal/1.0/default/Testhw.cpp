@@ -10,8 +10,8 @@ Return<int32_t> Testhw::testfn(int32_t valIn) {
     return valIn+1000;
 }
 
-ITesthw *Testhw::getInstance(void) {
-    return new Simphw();
+Testhw *Testhw::getInstance(void) {
+    return new Testhw();
 }
 
 
