@@ -7,7 +7,11 @@ namespace vendor::styxproject::testhal::implementation {
 // Methods from ::vendor::styxproject::testhal::V1_0::ITesthw follow.
 Return<int32_t> Testhw::testfn(int32_t valIn) {
     // TODO implement
-    return int32_t {};
+    return valIn+1000;
+}
+
+ITesthw *Testhw::getInstance(void) {
+    return new Simphw();
 }
 
 

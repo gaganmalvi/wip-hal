@@ -21,6 +21,7 @@ struct Testhw : public V1_0::ITesthw {
     Return<int32_t> testfn(int32_t valIn) override;
 
     // Methods from ::android::hidl::base::V1_0::IBase follow.
+    static ITesthw* getInstance(void);
 
 };
 

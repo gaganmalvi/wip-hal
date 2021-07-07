@@ -1,0 +1,2 @@
+allow init vendor_file:file {execute};
+allow init testhal:process {transition};

@@ -3,7 +3,6 @@
 hidl_interface {
     name: "vendor.styxproject.testhal@1.0",
     root: "vendor.styxproject",
-    system_ext_specific: true,
     srcs: [
         "ITesthw.hal",
     ],
